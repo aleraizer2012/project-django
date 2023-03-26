@@ -8,6 +8,3 @@ class DocNumber(models.Model):
     subject = models.CharField(max_length=200)
     recipient = models.CharField(max_length=100)
     departmentrecipient = models.CharField(max_length=100)
-
-    def __str__(self):
-        return self.number
